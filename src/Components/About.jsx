@@ -9,7 +9,7 @@ const About = () => {
             <div className="lg:flex flex-row w-full">
                 <div className="lg:w-1/2 md:w-full flex flex-col items-center justify-center gap-10 lg:pb-0 pb-10">
                     <div>
-                        <img src="public/Beeg.jpeg" title="nice profile photo" alt="pfp" className="h-44 w-44 rounded-full" />
+                        <img src="/Beeg.jpeg" title="nice profile photo" alt="pfp" className="h-44 w-44 rounded-full" />
                     </div>
                     <div className="text-center">
                         <h1 className="text-xl text-white font-bold">

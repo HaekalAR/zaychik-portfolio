@@ -1,0 +1,50 @@
+/* Google fnot : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* === Tailwindcss Dependencies === */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Actual CSS Styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transform-origin: bottom;
+}
+
+.slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transform-origin: top;
+}
